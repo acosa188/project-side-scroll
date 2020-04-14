@@ -6,6 +6,23 @@ body {
     font-weight:500;
 }
 
+.ac-nav-item {
+    font-weight:500;
+    letter-spacing: 0.3rem;
+}
+
 .ac-intro-summary {
     line-height: 1.8rem;
+}
+
+.ac-hr {
+    background-color: #f8f9fa;
+}
+
+.ac-w-15 {
+    width:15%!important;
+}
+
+.ac-w-10 {
+    width: 10% !important;
 }
