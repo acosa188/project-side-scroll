@@ -26,3 +26,17 @@ body {
 .ac-w-10 {
     width: 10% !important;
 }
+
+.ac-main-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ac-intro-wrapper {
+    height: 100vh;
+}
+
+.ac-content-wrapper {
+    height: 100vh;
+    overflow: auto;
+}
