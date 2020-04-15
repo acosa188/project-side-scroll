@@ -17,12 +17,12 @@ function App() {
                   
               </div>
               <div className="col-8 ">
-                  <div className="ac-content-wrapper">
-                      <ProjectList />
+                  <div className="ac-content-wrapper" data-spy="scroll" data-target="#ac-navigation" data-offset="0">
+                      <ProjectList id="projectID" />
                   </div>
               </div>
           </div>
-      
+
     </div>
   );
 }

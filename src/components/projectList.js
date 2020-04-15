@@ -4,7 +4,7 @@ import ProjectCard from './projectCard'
 class ProjectList extends Component {
     render() {
         return (
-            <div className="projectListClass nav p-5 mx-5 mb-5">
+            <div className="projectListClass nav p-5 mx-5 mb-5" id={this.props.id}>
                 <nav className="nav d-flex flex-column w-100">
                     <a className="nav-item nav-link" href="#">
                         <ProjectCard languages="typescript" title="snippets.js" summary="Extract code snippets from source files." likes="10" />

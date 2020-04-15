@@ -2,9 +2,27 @@ body {
     background-color: rgb(21,21,21);
 }
 
+.scrollspy-example {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 0.5rem;
+    overflow: auto;
+}
 /*Custom CSS for nav*/
-.nav .nav-item .nav-link {
-    color: #6c757d!important;
+.nav-link {
+    color: #6c757d;
+}
+
+.nav-link:hover {
+    color: #f8f9fa;
+}
+
+.nav-link:focus {
+    color: #f8f9fa;
+}
+.active {
+    color: #f8f9fa;
 }
 
 /*Font spacing and height*/
