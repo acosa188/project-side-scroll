@@ -3,6 +3,7 @@ import Intro from './components/intro'
 import Navigation from './components/navigation'
 import FooterLinks from './components/footerLinks'
 import ProjectList from './components/projectList'
+import TalksList from './components/talksList'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <div className="col-8 ">
                   <div className="ac-content-wrapper" data-spy="scroll" data-target="#ac-navigation" data-offset="0">
                       <ProjectList id="projectID" />
+                      <TalksList id="talksID" />
                   </div>
               </div>
           </div>

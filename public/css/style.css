@@ -2,13 +2,6 @@ body {
     background-color: rgb(21,21,21);
 }
 
-.scrollspy-example {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin-top: 0.5rem;
-    overflow: auto;
-}
 /*Custom CSS for nav*/
 .nav-link {
     color: #6c757d;
@@ -41,13 +34,30 @@ body {
 
 .ac-project-card-lang-size {
     font-size: 0.8rem;
-}
-.ac-project-card-lang-spacing {
     font-weight: 500;
+}
+.ac-project-card-title-weight {
+    font-weight: 500;
+}
+
+.ac-project-card-lang-spacing {
     letter-spacing: 0.3rem;
 }
 .ac-project-card-title-spacing {
     letter-spacing: 0.2rem;
+}
+
+.ac-talks-card-lang-size {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.ac-talks-card-lang-spacing {
+    letter-spacing: 0.3rem;
+}
+
+.ac-talks-card-size {
+    height: 550px;
 }
 
 
@@ -77,6 +87,6 @@ body {
     overflow: auto;
 }
 
-.ac-project-card-bgcolor {
+.ac-card-bgcolor {
     background-color: rgb(32, 32, 34);
 }
