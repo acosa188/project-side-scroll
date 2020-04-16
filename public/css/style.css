@@ -2,7 +2,19 @@ body {
     background-color: rgb(21,21,21);
 }
 
+.ac-orange-color {
+    color: #C86142;
+}
+
 /*Custom CSS for nav*/
+.ac-link {
+    color: #C86142;
+}
+
+.ac-link:hover {
+    color: #A01F12;
+}
+
 .nav-link {
     color: #6c757d;
 }
@@ -89,4 +101,32 @@ body {
 
 .ac-card-bgcolor {
     background-color: rgb(32, 32, 34);
+}
+
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+
+}
+
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
 }

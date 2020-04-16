@@ -9,7 +9,7 @@ class TalksCard extends Component {
                 <div className="card-body">
                     <div className="d-flex flex-column p-4 ">
                         <div className="mb-5">
-                            <p className="ac-talks-card-lang-size ac-talks-card-lang-spacing text-uppercase text-light mb-0">
+                            <p className="ac-talks-card-lang-size ac-talks-card-lang-spacing text-uppercase ac-orange-color mb-0">
                                 {this.props.eventName}
                             </p>
                             <p className="mb-0">
@@ -31,7 +31,7 @@ class TalksCard extends Component {
                             </p>
                             <div className="d-inline-block">
                                 {this.props.videoLink &&
-                                    <a className="text-muted mr-4" href={this.props.videoLink}>
+                                    <a className="ac-link mr-4" href={this.props.videoLink}>
                                         <small className="font-weight-bold">
                                             Video &nbsp;
                                         </small>
@@ -40,7 +40,7 @@ class TalksCard extends Component {
                                 }
 
                                 {this.props.slideLink &&
-                                    <a className="text-muted" href={this.props.slideLink}>
+                                    <a className="ac-link" href={this.props.slideLink}>
                                         <small className="font-weight-bold">
                                             Slides &nbsp;
                                         </small>

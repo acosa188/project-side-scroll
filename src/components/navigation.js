@@ -8,11 +8,11 @@ class Navigation extends Component {
                     <a className="nav-item  nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#projectID">
                         01 <hr className="ac-w-15 ac-hr d-inline-flex mx-4" /> PROJECTS
                     </a>
-                    <a className="nav-item nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#talksID">
-                        02 <hr className="ac-w-10 ac-hr d-inline-flex mx-4" /> TALKS
+                    <a className="nav-item nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#coursesID">
+                        02 <hr className="ac-w-10 ac-hr d-inline-flex mx-4" /> COURSES&nbsp;&&nbsp;READS
                     </a>
-                    <a className="nav-item nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#interviewID">
-                        03 <hr className="ac-w-10 ac-hr d-inline-flex mx-4" /> INTERVIEWS
+                    <a className="nav-item nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#referenceID">
+                        03 <hr className="ac-w-10 ac-hr d-inline-flex mx-4" /> REFERENCES
                     </a>
                 </nav>
             </div>    
