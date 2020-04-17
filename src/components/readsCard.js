@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import '../css/readsCard.css'
 
-class TalksCard extends Component {
+class ReadsCard extends Component {
     render() {
         return (
             <div className="card ac-card-bgcolor talkCardClass">
@@ -59,4 +60,4 @@ class TalksCard extends Component {
     }
 }
 
-export default TalksCard;
+export default ReadsCard;

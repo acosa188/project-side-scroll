@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ProjectCard from './projectCard'
+import '../css/projectList.css'
 
 class ProjectList extends Component {
     render() {
