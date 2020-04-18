@@ -4,9 +4,9 @@ import '../css/navigation.css'
 class Navigation extends Component {
     render() {
         return (
-            <div className="navigationClass p-5">
+            <div className="navigationClass py-lg-4 p-5">
                 <nav className="nav d-flex flex-column" id="ac-navigation">
-                    <a className="nav-item  nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#projectID">
+                    <a className="nav-item  nav-link active ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#projectID">
                         01 <hr className="ac-w-15 ac-hr d-inline-flex mx-4" /> PROJECTS
                     </a>
                     <a className="nav-item nav-link ac-nav-item h7 d-inline-flex mb-3 pl-0" href="#coursesID">

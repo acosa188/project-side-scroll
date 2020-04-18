@@ -1,0 +1,17 @@
+.footer-font {
+    font-size: 1rem;
+}
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .footer-font {
+        font-size: 0.9rem;
+    }
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
+}

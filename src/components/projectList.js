@@ -5,7 +5,7 @@ import '../css/projectList.css'
 class ProjectList extends Component {
     render() {
         return (
-            <div className="projectListClass nav p-5 mx-5 mb-5" id={this.props.id}>
+            <div className="projectListClass nav mb-5" id={this.props.id}>
                 <nav className="nav d-flex flex-column w-100">
                     <a className="nav-item nav-link p-0" href="#">
                         <ProjectCard languages="Node.js, Javascript, discord.js" title="ivara the merchant" summary="A discord bot that lets user to query the warframe market place." likes="10" />

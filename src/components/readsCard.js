@@ -10,7 +10,7 @@ class ReadsCard extends Component {
                 <div className="card-body">
                     <div className="d-flex flex-column p-4 ">
                         <div className="mb-5">
-                            <p className="ac-talks-card-lang-size ac-talks-card-lang-spacing text-uppercase ac-orange-color mb-0">
+                            <p className="ac-talks-card-lang-font text-uppercase ac-orange-color mb-0">
                                 {this.props.eventName}
                             </p>
                             <p className="mb-0">
@@ -27,7 +27,7 @@ class ReadsCard extends Component {
                         </div>
 
                         <div className="pt-5 mb-2 align-items-end">
-                            <p className="h1 font-weight-normal text-light">
+                            <p className="ac-talks-card-topic-font font-weight-normal text-light">
                                 {this.props.topic}
                             </p>
                             <div className="d-inline-block">

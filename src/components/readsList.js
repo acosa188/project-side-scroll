@@ -5,7 +5,7 @@ import '../css/readsList.css'
 class ReadsList extends Component {
     render() {
         return (
-            <div className="talkListClass p-5 mx-5" id={this.props.id}>
+            <div className="talkListClass" id={this.props.id}>
                 <div className="card-columns">
                     <ReadsCard eventName="vueconf us" place="Austin, TX, USA" date="Mar. 2, 2020" topic="Test-Drive Development with Vue.js" />
                     <ReadsCard eventName="dotcss" place="Paris, France" date="Dec. 4, 2019" topic="In Defense of Utility-First CSS" videoLink="#" slideLink="#" />

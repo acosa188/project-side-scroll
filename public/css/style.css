@@ -2,6 +2,18 @@ body {
     background-color: rgb(21,21,21);
 }
 
+.ac-content-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.ac-content-wrapper {
+    -ms-overflow-style: none;
+}
+
+.ac-scroll-hidden {
+    overflow-y: hidden;
+}
+
 .ac-orange-color {
     color: #C86142;
 }

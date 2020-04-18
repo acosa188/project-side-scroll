@@ -1,16 +1,47 @@
-.ac-project-card-lang-size {
+
+.ac-project-card-lang-font {
     font-size: 0.8rem;
     font-weight: 500;
-}
-
-.ac-project-card-lang-spacing {
     letter-spacing: 0.3rem;
 }
 
-.ac-project-card-title-weight {
+.ac-project-card-title-font {
+    letter-spacing: 0.2rem;
     font-weight: 500;
+    font-size: 3.5rem;
 }
 
-.ac-project-card-title-spacing {
-    letter-spacing: 0.2rem;
+.ac-project-card-summary-font {
+    font-size: 1rem;
+}
+
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+}
+
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .ac-project-card-title-font {
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+        font-size: 2.6rem;
+    }
+
+    .ac-project-card-summary-font {
+        font-size: 0.9rem;
+    }
+
+    .ac-project-card-lang-font {
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
 }

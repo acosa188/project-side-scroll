@@ -1,7 +1,39 @@
-.ac-intro-name-weight {
-    font-weight: 500;
+
+.ac-intro-summary {
+    line-height: 1.8rem;
 }
 
-.ac-intro-summary-line-height {
-    line-height: 1.8rem;
+.ac-intro-heading {
+    font-weight: 500;
+    font-size: 5.5rem;
+    line-height: 1.2;
+}
+
+
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+}
+
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .ac-intro-heading {
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+
+    .ac-intro-summary {
+        font-size: 0.9rem;
+        line-height: 1.8rem;
+    }
+
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
+
 }

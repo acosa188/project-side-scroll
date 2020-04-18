@@ -1,12 +1,38 @@
-.ac-talks-card-lang-size {
+.ac-talks-card-lang-font {
     font-size: 0.8rem;
     font-weight: 500;
-}
-
-.ac-talks-card-lang-spacing {
     letter-spacing: 0.3rem;
 }
 
 .ac-talks-card-size {
     height: 550px;
+}
+
+.ac-talks-card-topic-font {
+    font-size:2.5rem;
+}
+
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+}
+
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .ac-talks-card-lang-font {
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+
+    .ac-talks-card-topic-font {
+        font-size: 2rem;
+    }
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
 }
