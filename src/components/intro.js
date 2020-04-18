@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import '../css/intro.css'
 
 class Intro extends Component {
     render() {
         return (
-            <div className="introClass py-lg-4 p-5 container">
-                <p className="ac-intro-heading text-light">
+            <div className="introClass p-5">
+                <p className="display-2 text-light ac-intro-name">
                     Hello, I'm Arjun Cosare
                 </p>
                 <p className="text-muted ac-intro-summary">

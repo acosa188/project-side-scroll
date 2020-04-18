@@ -42,6 +42,49 @@ body {
     color: #f8f9fa;
 }
 
+/*Font spacing and height*/
+.ac-intro-name {
+    font-weight:500;
+}
+
+.ac-nav-item {
+    font-weight:500;
+    letter-spacing: 0.3rem;
+}
+
+.ac-intro-summary {
+    line-height: 1.8rem;
+}
+
+.ac-project-card-lang-size {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.ac-project-card-title-weight {
+    font-weight: 500;
+}
+
+.ac-project-card-lang-spacing {
+    letter-spacing: 0.3rem;
+}
+.ac-project-card-title-spacing {
+    letter-spacing: 0.2rem;
+}
+
+.ac-talks-card-lang-size {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.ac-talks-card-lang-spacing {
+    letter-spacing: 0.3rem;
+}
+
+.ac-talks-card-size {
+    height: 550px;
+}
+
+
 .ac-hr {
     background-color: #f8f9fa;
 }
@@ -72,3 +115,30 @@ body {
     background-color: rgb(32, 32, 34);
 }
 
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+
+}
+
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}

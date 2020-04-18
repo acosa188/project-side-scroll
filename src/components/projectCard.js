@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../css/projectCard.css'
 
 class ProjectCard extends Component {
     render() {
