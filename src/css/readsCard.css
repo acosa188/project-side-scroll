@@ -35,4 +35,13 @@
 
 /*Computer sizes*/
 @media (min-width: 1200px) {
+    .ac-talks-card-lang-font {
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+
+    .ac-talks-card-topic-font {
+        font-size: 3rem;
+    }
 }

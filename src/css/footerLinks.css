@@ -1,12 +1,22 @@
 .footer-font {
     font-size: 1rem;
 }
+
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+}
+
 /*Phone sizes landscape*/
 @media (min-width: 768px) {
 }
 
 /*Tablet sizes*/
 @media (min-width: 992px) {
+    .ac-icon {
+        width:0.9em;
+        height:0.9em;
+    }
+
     .footer-font {
         font-size: 0.9rem;
     }
@@ -14,4 +24,7 @@
 
 /*Computer sizes*/
 @media (min-width: 1200px) {
+    .footer-font {
+        font-size: 1rem;
+    }
 }

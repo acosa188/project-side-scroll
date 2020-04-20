@@ -35,5 +35,14 @@
 
 /*Computer sizes*/
 @media (min-width: 1200px) {
+    .ac-intro-heading {
+        font-weight: 500;
+        font-size: 5.5rem;
+        line-height: 1.2;
+    }
 
+    .ac-intro-summary {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
 }

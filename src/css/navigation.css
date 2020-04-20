@@ -18,4 +18,9 @@
 
 /*Computer sizes*/
 @media (min-width: 1200px) {
+    .ac-nav-item {
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+        font-size: 1rem;
+    }
 }
