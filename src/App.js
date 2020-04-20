@@ -8,7 +8,7 @@ import ReadsList from './components/readsList'
 function App() {
   return (
       <div className="App">
-          <div className="row no-gutters ac-main-wrapper">
+          <div className="row no-gutters">
               <div className="col-5 col-xl-4 ">
                   <div className="ac-intro-wrapper">
                       <Intro />

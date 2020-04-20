@@ -4,7 +4,7 @@ import '../css/intro.css'
 class Intro extends Component {
     render() {
         return (
-            <div className="introClass p-5">
+            <div className="introClass px-5 pt-5 pb-4">
                 <p className="ac-intro-heading text-light ac-intro-name">
                     Hello, I'm Arjun Cosare
                 </p>
