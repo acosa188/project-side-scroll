@@ -6,16 +6,23 @@ import '../css/referenceCard.css'
 class ReferenceCard extends Component {
     render() {
         return (
-            <div className="referenceCardClass">
-                <FontAwesomeIcon icon={faUser} size="lg" />
-                <div className="flex-column">
-                    <p>{this.props.name}</p>
-                    <p>{this.props.profession}</p>
+            <div className="refrenceCardClass row my-5">
+                <div className="rounded-circle ac-card-bgcolor ac-circle d-flex justify-content-center">
+                    <FontAwesomeIcon className="align-self-center text-light ac-person-icon" icon={faUser} />
+                </div>
+                <div className="py-2 px-5">
+                    <p className="h2 text-light">{this.props.name}</p>
+                    <p className="h7 font-weight-normal text-muted">{this.props.profession}</p>
                     <div className="d-inline-block">
-                        <span>E: {this.props.email}</span>
-                        <span>P: {this.props.phone}</span>
+                        <small className="ac-orange-color mr-5">
+                            E: {this.props.email}
+                        </small>
+                        <small className="ac-orange-color">
+                            P: {this.props.phone}
+                        </small>
                     </div>
                 </div>
+                
             </div>    
         );
     }

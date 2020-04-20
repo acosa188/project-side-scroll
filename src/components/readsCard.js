@@ -31,19 +31,19 @@ class ReadsCard extends Component {
                                 {this.props.topic}
                             </p>
                             <div className="d-inline-block">
-                                {this.props.videoLink &&
-                                    <a className="ac-link mr-4" href={this.props.videoLink}>
+                                {this.props.moreinfoLink &&
+                                    <a className="ac-link mr-4" href={this.props.moreinfoLink} target="_blank">
                                         <small className="font-weight-bold">
-                                            Video &nbsp;
+                                            MoreInfo &nbsp;
                                         </small>
                                         <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" />
                                     </a>
                                 }
 
-                                {this.props.slideLink &&
-                                    <a className="ac-link" href={this.props.slideLink}>
+                                {this.props.websiteLink &&
+                                    <a className="ac-link" href={this.props.websiteLink} target="_blank">
                                         <small className="font-weight-bold">
-                                            Slides &nbsp;
+                                            Website &nbsp;
                                         </small>
                                         <FontAwesomeIcon icon={faExternalLinkAlt} size="xs" />
                                     </a>

@@ -4,12 +4,13 @@ import ReadsCard from './readsCard'
 class ReadsList extends Component {
     render() {
         return (
-            <div className="talkListClass" id={this.props.id}>
+            <div className="talkListClass mb-5" id={this.props.id}>
                 <div className="card-columns">
-                    <ReadsCard eventName="vueconf us" place="Austin, TX, USA" date="Mar. 2, 2020" topic="Test-Drive Development with Vue.js" />
-                    <ReadsCard eventName="dotcss" place="Paris, France" date="Dec. 4, 2019" topic="In Defense of Utility-First CSS" videoLink="#" slideLink="#" />
-                    <ReadsCard eventName="vue conf toronto" place="Toronto, Canada" date="Nov. 11, 2019" topic="Test-Drive Development with Vue.js" videoLink="#" slideLink="#" />
-                    <ReadsCard eventName="vue.js pairs #20" place="Paris, France" date="Jun. 5 2019" topic="An Introduction to TDD with Vue.js" videoLink="#" slideLink="#" />
+                    <ReadsCard eventName="Ehud Sharlin" place="University of Calgary" date="Fall 2017" topic="Human Computer Interaction" moreinfoLink="http://contacts.ucalgary.ca/info/cpsc/profiles/102-3264" websiteLink="http://www.cpsc.ucalgary.ca/~ehud"/>
+                    <ReadsCard eventName="Carey Williamson" place="University of Calgary" date="Fall 2017" topic="Systems Modelling & Simulation" moreinfoLink="https://pages.cpsc.ucalgary.ca/~carey/" />
+                    <ReadsCard eventName="Nelson Wong" place="University of Calgary" date="Winter 2017" topic="Database Management Systems" moreinfoLink="http://contacts.ucalgary.ca/info/cpsc/profiles/102-2540" />
+                    <ReadsCard eventName="Ken Barker" place="University of Calgary" date="Fall 2019" topic="Design and Implementation Database System" moreinfoLink="https://www.ucalgary.ca/kbarker/" />
+                    <ReadsCard eventName="Sasha Ivanov" place="University of Calgary" date="Fall 2019" topic="iProgramming Creative Minds" moreinfoLink="https://www.linkedin.com/in/madebysasha/?originalSubdomain=ca" />
                 </div>
             </div>    
         );
