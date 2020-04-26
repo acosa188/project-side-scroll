@@ -17,9 +17,13 @@ class ReferenceCard extends Component {
                         <small className="ac-orange-color mr-5">
                             E: {this.props.email}
                         </small>
-                        <small className="ac-orange-color">
-                            P: {this.props.phone}
-                        </small>
+                        {
+                            this.props.phone ? 
+                                <small className="ac-orange-color">
+                                    P: {this.props.phone}
+                                </small> : <div></div>
+                        }
+                        
                     </div>
                 </div>
                 
