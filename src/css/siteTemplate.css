@@ -29,6 +29,9 @@ body {
 }
 
 .ac-link {
+    overflow-wrap: break-word;
+}
+.ac-link {
     color: #C86142;
 }
 
