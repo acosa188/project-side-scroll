@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import App from './App';
+import IvaraTheMerchantPage from './pages/ivaraTheMerchant';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <BrowserRouter>
+        <div>
+            <Route exact path="/" component={App} />
+            <Route exact path="/project/IvaraTheMerchant" component={IvaraTheMerchantPage} />
+        </div>
+    </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -32,7 +32,7 @@ class ReadsCard extends Component {
                             </p>
                             <div className="d-inline-block">
                                 {this.props.moreinfoLink &&
-                                    <a className="ac-link mr-4" href={this.props.moreinfoLink} target="_blank">
+                                    <a className="ac-link mr-4" href={this.props.moreinfoLink} target="_blank" rel="noopener noreferrer">
                                         <small className="font-weight-bold">
                                             MoreInfo &nbsp;
                                         </small>
@@ -41,7 +41,7 @@ class ReadsCard extends Component {
                                 }
 
                                 {this.props.websiteLink &&
-                                    <a className="ac-link" href={this.props.websiteLink} target="_blank">
+                                    <a className="ac-link" href={this.props.websiteLink} target="_blank" rel="noopener noreferrer">
                                         <small className="font-weight-bold">
                                             Website &nbsp;
                                         </small>

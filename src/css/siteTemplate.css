@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+
+body {
+    background-color: rgb(21,21,21);
+}
+
+.ac-summary {
+    line-height: 1.8rem;
+}
+
+.ac-heading {
+    color: #C86142;
+}
+
+.ac-hr-design-lighter {
+    width: 6em;
+    height: 1px;
+    margin-right: auto;
+    background-color: #C86142;
+    border: 0 none;
+}
+
+.ac-greyArea {
+    background-color: #222222 !important
+}
+
+.ac-list-item {
+    font-size:1.2rem;
+}
+
+.ac-link {
+    color: #C86142;
+}
+
+.ac-link:hover {
+    color: #A01F12;
+}
