@@ -6,7 +6,7 @@ import '../css/projectCard.css'
 class ProjectCard extends Component {
     render() {
         return (
-            <div className="projectCard ac-card-bgcolor p-5 mb-2">
+            <div className="projectCard ac-proj-card-bgcolor p-5 mb-2">
                 <p className="ac-project-card-lang-font text-uppercase ac-orange-color">{this.props.languages}</p>
                 <p className="ac-project-card-title-font text-light">{this.props.title}</p>
 

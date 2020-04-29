@@ -113,9 +113,6 @@ body {
     overflow: auto;
 }
 
-.ac-card-bgcolor {
-    background-color: rgb(32, 32, 34);
-}
 
 /*Phone sizes portrait*/
 @media (min-width: 575px) {
