@@ -1,5 +1,5 @@
 .ac-talks-card-lang-font {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
 }
@@ -9,7 +9,7 @@
 }
 
 .ac-talks-card-topic-font {
-    font-size:2.5rem;
+    font-size:1.8rem;
 }
 
 .ac-card-bgcolor {
@@ -19,10 +19,28 @@
 
 /*Phone sizes portrait*/
 @media (min-width: 575px) {
+    .ac-talks-card-lang-font {
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+
+    .ac-talks-card-topic-font {
+        font-size: 1.9rem;
+    }
 }
 
 /*Phone sizes landscape*/
 @media (min-width: 768px) {
+    .ac-talks-card-lang-font {
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+
+    .ac-talks-card-topic-font {
+        font-size: 2rem;
+    }
 }
 
 /*Tablet sizes*/

@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import ReadsCard from './readsCard'
+import '../css/readsList.css'
 
 class ReadsList extends Component {
     render() {
         return (
             <div className="talkListClass mb-5" id={this.props.id}>
+                <div className="ac-list-header mb-5 d-lg-none">Courses and Reads</div>
                 <div className="card-columns">
                     <ReadsCard eventName="Ehud Sharlin" place="University of Calgary" date="Fall 2017" topic="Human Computer Interaction" moreinfoLink="http://contacts.ucalgary.ca/info/cpsc/profiles/102-3264" websiteLink="http://www.cpsc.ucalgary.ca/~ehud"/>
                     <ReadsCard eventName="Carey Williamson" place="University of Calgary" date="Fall 2017" topic="Systems Modelling & Simulation" moreinfoLink="https://pages.cpsc.ucalgary.ca/~carey/" />

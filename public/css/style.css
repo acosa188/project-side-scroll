@@ -104,24 +104,26 @@ body {
     height: 100vh;
 }
 
-.ac-intro-wrapper {
-    height: 100vh;
-}
-
-.ac-content-wrapper {
-    height: 100vh;
-    overflow: auto;
-}
-
 
 /*Phone sizes portrait*/
 @media (min-width: 575px) {
-
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
 }
 
 /*Phone sizes landscape*/
 @media (min-width: 768px) {
-
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .ac-content-wrapper {
+        overflow: auto;
+    }
 }
 
 /*Tablet sizes*/
@@ -130,6 +132,9 @@ body {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
+    }
+    .ac-content-wrapper {
+        height: 100vh;
     }
 }
 

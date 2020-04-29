@@ -10,8 +10,8 @@ class ReferenceCard extends Component {
                 <div className="rounded-circle ac-card-bgcolor ac-circle d-flex justify-content-center">
                     <FontAwesomeIcon className="align-self-center text-light ac-person-icon" icon={faUser} />
                 </div>
-                <div className="py-2 px-5">
-                    <p className="h2 text-light">{this.props.name}</p>
+                <div className="col-12 col-md-6 py-2 px-md-5">
+                    <p className="ac-reference-name text-light">{this.props.name}</p>
                     <p className="h7 font-weight-normal text-muted">{this.props.profession}</p>
                     <div className="d-inline-block">
                         <small className="ac-orange-color mr-5">

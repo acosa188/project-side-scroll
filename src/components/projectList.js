@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import ProjectCard from './projectCard'
+import '../css/projectList.css'
 
 class ProjectList extends Component {
     render() {
         return (
             <div className="projectListClass nav mb-5" id={this.props.id}>
+                <div className="ac-list-header mb-5 d-lg-none">Projects</div>
                 <nav className="nav d-flex flex-column w-100">
                     <a className="nav-item nav-link p-0" href="/project/IvaraTheMerchant">
                         <ProjectCard languages="Node.js, Javascript, discord.js" title="ivara the merchant" summary="A discord bot that lets user to query the warframe market place." likes="10" />

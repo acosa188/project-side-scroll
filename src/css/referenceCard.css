@@ -1,9 +1,90 @@
 .ac-circle {
-    width:7em;
-    height:7em;
+    width:5em;
+    height:5em;
 }
 
 .ac-person-icon {
-    width:2.5em!important;
-    height:2.5em!important;
+    width:2em!important;
+    height:2em!important;
+}
+
+.ac-reference-name {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/*Phone sizes portrait*/
+@media (min-width: 575px) {
+    .ac-circle {
+        width: 7em;
+        height: 7em;
+    }
+
+    .ac-person-icon {
+        width: 2.5em !important;
+        height: 2.5em !important;
+    }
+
+}
+
+/*Phone sizes landscape*/
+@media (min-width: 768px) {
+    .ac-circle {
+        width: 7em;
+        height: 7em;
+    }
+
+    .ac-person-icon {
+        width: 2.5em !important;
+        height: 2.5em !important;
+    }
+    .ac-reference-name {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+/*Tablet sizes*/
+@media (min-width: 992px) {
+    .ac-circle {
+        width: 7em;
+        height: 7em;
+    }
+
+    .ac-person-icon {
+        width: 2.5em !important;
+        height: 2.5em !important;
+    }
+
+    .ac-reference-name {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+/*Computer sizes*/
+@media (min-width: 1200px) {
+    .ac-circle {
+        width: 7em;
+        height: 7em;
+    }
+
+    .ac-person-icon {
+        width: 2.5em !important;
+        height: 2.5em !important;
+    }
+
+    .ac-reference-name {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
 }

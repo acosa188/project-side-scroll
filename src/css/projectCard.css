@@ -26,12 +26,61 @@
     background-color: rgb(20, 20, 20);
 }
 
+.ac-project-card-lang-font {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+.ac-project-card-title-font {
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    font-size: 2.1rem;
+}
+
+.ac-project-card-summary-font {
+    font-size: 1rem;
+}
+
 /*Phone sizes portrait*/
 @media (min-width: 575px) {
+   
+
+    .ac-project-card-lang-font {
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+
+    .ac-project-card-title-font {
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+        font-size: 2.1rem;
+    }
+
+    .ac-project-card-summary-font {
+        font-size: 1rem;
+    }
 }
 
 /*Phone sizes landscape*/
 @media (min-width: 768px) {
+    .ac-project-card-lang-font {
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+    .ac-project-card-title-font {
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+        font-size: 2.6rem;
+    }
+
+    .ac-project-card-summary-font {
+        font-size: 1rem;
+    }
+
+    
 }
 
 /*Tablet sizes*/
@@ -43,7 +92,7 @@
     }
 
     .ac-project-card-summary-font {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .ac-project-card-lang-font {
