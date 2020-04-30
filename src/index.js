@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 import IvaraTheMerchantPage from './pages/ivaraTheMerchant';
 import CanadaLivePage from './pages/canadaLive';
+import EasyGradingPage from './pages/easyGrading'
 import { BrowserRouter, Route } from 'react-router-dom';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
             <Route exact path="/"  component={App} />
             <Route exact path="/project/IvaraTheMerchant"  component={IvaraTheMerchantPage} />
             <Route exact path="/project/CanadaLive" component={CanadaLivePage} />
+            <Route exact path="/project/EasyGrading" component={EasyGradingPage} />
         </div>
     </BrowserRouter>,
   document.getElementById('root')

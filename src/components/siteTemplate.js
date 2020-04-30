@@ -8,8 +8,8 @@ class SiteTemplate extends Component {
             <div className="siteTemplateClass">
                 <div className="container my-5">
                     <div className="row px-5">
-                        <div className="imgClass col-lg-6">
-                            <img className="img-fluid" src={this.props.image} alt="" />
+                        <div className="imgClass col-lg-6 mb-lg-5">
+                            <img className="img-thumbnail mt-lg-5" src={this.props.image} alt="" height="500px" />
                         </div>
                         <div className="summaryClass col-lg-6 p-lg-5 mb-5 mb-lg-0">
                             <p className="display-3 text-light">{this.props.title}</p>
