@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../css/siteTemplate.css'
+import { Link } from 'react-router-dom'
 
 class SiteTemplate extends Component {
     render() {
@@ -70,9 +71,9 @@ class SiteTemplate extends Component {
 
                         <div className="col-12">
                             <div className="d-flex justify-content-center">
-                                <a className="h5 ac-link" href="/">
+                                <Link className="h5 ac-link" to="/">
                                     &lt; Back
-                                </a>
+                                </Link>
                             </div>  
 
                         </div>

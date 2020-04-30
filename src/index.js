@@ -8,10 +8,10 @@ import CanadaLivePage from './pages/canadaLive';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
-            <Route exact path="/" component={App} />
-            <Route exact path="/project/IvaraTheMerchant" component={IvaraTheMerchantPage} />
+            <Route exact path="/"  component={App} />
+            <Route exact path="/project/IvaraTheMerchant"  component={IvaraTheMerchantPage} />
             <Route exact path="/project/CanadaLive" component={CanadaLivePage} />
         </div>
     </BrowserRouter>,
