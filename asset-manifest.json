@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19a61987.chunk.css",
+    "main.js": "/static/js/main.ce51e9be.chunk.js",
+    "main.js.map": "/static/js/main.ce51e9be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b9d9df64.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b9d9df64.js.map",
+    "static/js/2.81901eae.chunk.js": "/static/js/2.81901eae.chunk.js",
+    "static/js/2.81901eae.chunk.js.map": "/static/js/2.81901eae.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.45417759bc280c4b5922811497d7a00e.js": "/precache-manifest.45417759bc280c4b5922811497d7a00e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.19a61987.chunk.css.map": "/static/css/main.19a61987.chunk.css.map",
+    "static/js/2.81901eae.chunk.js.LICENSE.txt": "/static/js/2.81901eae.chunk.js.LICENSE.txt",
+    "static/media/IvaraTheMerchantPlan.png": "/static/media/IvaraTheMerchantPlan.2758851a.png",
+    "static/media/canadaLive.PNG": "/static/media/canadaLive.5af98ea3.PNG",
+    "static/media/canadaLivePlan.png": "/static/media/canadaLivePlan.c96a9111.png",
+    "static/media/dumpling.png": "/static/media/dumpling.78546ec2.png",
+    "static/media/ivaraDiscord.PNG": "/static/media/ivaraDiscord.04de9916.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9d9df64.js",
+    "static/js/2.81901eae.chunk.js",
+    "static/css/main.19a61987.chunk.css",
+    "static/js/main.ce51e9be.chunk.js"
+  ]
+}
