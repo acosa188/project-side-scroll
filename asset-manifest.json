@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/project-side-scroll/static/css/main.19a61987.chunk.css",
-    "main.js": "/project-side-scroll/static/js/main.e3197af4.chunk.js",
-    "main.js.map": "/project-side-scroll/static/js/main.e3197af4.chunk.js.map",
+    "main.css": "/project-side-scroll/static/css/main.8bbc57ff.chunk.css",
+    "main.js": "/project-side-scroll/static/js/main.972372cb.chunk.js",
+    "main.js.map": "/project-side-scroll/static/js/main.972372cb.chunk.js.map",
     "runtime-main.js": "/project-side-scroll/static/js/runtime-main.1d3ceb90.js",
     "runtime-main.js.map": "/project-side-scroll/static/js/runtime-main.1d3ceb90.js.map",
-    "static/js/2.1384da98.chunk.js": "/project-side-scroll/static/js/2.1384da98.chunk.js",
-    "static/js/2.1384da98.chunk.js.map": "/project-side-scroll/static/js/2.1384da98.chunk.js.map",
+    "static/js/2.233746b0.chunk.js": "/project-side-scroll/static/js/2.233746b0.chunk.js",
+    "static/js/2.233746b0.chunk.js.map": "/project-side-scroll/static/js/2.233746b0.chunk.js.map",
     "index.html": "/project-side-scroll/index.html",
-    "precache-manifest.e759984473e09ec4cf4d814b63939090.js": "/project-side-scroll/precache-manifest.e759984473e09ec4cf4d814b63939090.js",
+    "precache-manifest.912fc34165357ae7788fbcdfcd5a8bc4.js": "/project-side-scroll/precache-manifest.912fc34165357ae7788fbcdfcd5a8bc4.js",
     "service-worker.js": "/project-side-scroll/service-worker.js",
-    "static/css/main.19a61987.chunk.css.map": "/project-side-scroll/static/css/main.19a61987.chunk.css.map",
-    "static/js/2.1384da98.chunk.js.LICENSE.txt": "/project-side-scroll/static/js/2.1384da98.chunk.js.LICENSE.txt",
+    "static/css/main.8bbc57ff.chunk.css.map": "/project-side-scroll/static/css/main.8bbc57ff.chunk.css.map",
+    "static/js/2.233746b0.chunk.js.LICENSE.txt": "/project-side-scroll/static/js/2.233746b0.chunk.js.LICENSE.txt",
     "static/media/IvaraTheMerchantPlan.png": "/project-side-scroll/static/media/IvaraTheMerchantPlan.2758851a.png",
     "static/media/canadaLive.PNG": "/project-side-scroll/static/media/canadaLive.5af98ea3.PNG",
     "static/media/canadaLivePlan.png": "/project-side-scroll/static/media/canadaLivePlan.c96a9111.png",
     "static/media/dumpling.png": "/project-side-scroll/static/media/dumpling.78546ec2.png",
+    "static/media/easyGrading.png": "/project-side-scroll/static/media/easyGrading.c672aaf9.png",
+    "static/media/easyGradingPlan.png": "/project-side-scroll/static/media/easyGradingPlan.2aa6099e.png",
     "static/media/ivaraDiscord.PNG": "/project-side-scroll/static/media/ivaraDiscord.04de9916.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.1d3ceb90.js",
-    "static/js/2.1384da98.chunk.js",
-    "static/css/main.19a61987.chunk.css",
-    "static/js/main.e3197af4.chunk.js"
+    "static/js/2.233746b0.chunk.js",
+    "static/css/main.8bbc57ff.chunk.css",
+    "static/js/main.972372cb.chunk.js"
   ]
 }
